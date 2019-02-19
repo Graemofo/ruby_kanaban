@@ -1,9 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <style>
+  	.col-md-4{
+  		height: 500px;
+  		border-radius: 5px;
+  		text-align: center;
+  	#	background-color: powderblue;
+  	}
+  	</style>
     <title>Ganban</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
